@@ -1,0 +1,125 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+img{
+    border-radius: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+    color: aliceblue;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    display: flex;
+    padding: 0 15px;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 94.5vh;
+}
+
+main .divUserInfo{
+    margin: 30px;
+}
+
+main .divUserInfo{
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 15px;
+    width: 50%;
+    text-align: center;
+    padding: 5px;
+}
+
+main .divUserInfo div{
+    padding: 15px 0;
+}
+
+
+main .divUserInfo .divIcon i{
+    padding: 0 15px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+main section div img{
+    height: 300px;
+    padding: 15px 30px;
+    border: 5px solid black;
+}
+
+.sectionInfoUser{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.sectionInfoUser h1{
+    padding: 20px 0;
+}
+
+
+.sectionInfoUser ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionInfoUser ul li{
+    padding: 10px 0;
+}
+
+.sectionInfoUser ul li span{
+    padding: 0 10px;
+}
+
+
+@media only screen and (max-width: 1440px) {
+    main{
+        flex-direction: column;
+    }
+
+    main section{
+        margin: 0;
+    }
+
+    main section div img{
+        height: 200px;
+        padding: 15px 30px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    main .divUserInfo{
+        width: 90%;
+    }
+    
+
+    main section div img{
+        height: 150px;
+        padding: 15px 30px;
+    }
+
+    .sectionInfoUser{
+        border: 1px solid black;
+        border-radius: 15px;
+        padding: 10px;
+    }
+}
