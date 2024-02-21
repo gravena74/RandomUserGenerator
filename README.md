@@ -1,4 +1,9 @@
-﻿# RandomUserGenerator
+<p align="center">
+  <img alt="License" src="Screenshot 2024-02-21 144914.png">
+</p>
+ 
+ 
+ # RandomUserGenerator
 
 ## 🚀 Tecnologias
 
